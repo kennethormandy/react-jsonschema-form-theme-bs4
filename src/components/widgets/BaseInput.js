@@ -53,7 +53,7 @@ function BaseInput(props) {
   const _onChange = ({ target: { value } }) => {
     return props.onChange(value === "" ? options.emptyValue : value);
   };
-  console.log(value);
+
   return (
     <Input
       readOnly={readonly}
